@@ -1,8 +1,12 @@
-import React from 'react';
-import {Contacts} from "./pages/Contacts";
+import React from 'react'
+import CssBaseline from '@material-ui/core/CssBaseline'
+import { Contacts } from './pages/Contacts'
 
 export const App = () => {
     return (
-        <Contacts />
-    );
+        <React.Fragment>
+            <CssBaseline />
+            <Contacts />
+        </React.Fragment>
+    )
 }
